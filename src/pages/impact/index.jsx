@@ -110,7 +110,7 @@ const ImpactPage = () => {
         <section className="relative w-full min-h-[50vh] bg-cover bg-center" style={{ backgroundImage: "url(/assets/images/aifakenews.jpg)" }}>
           <div className="absolute inset-0 bg-black/50" />
           <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col items-center text-center h-full justify-center">
-            <h2 className="font-heading text-3xl md:text-5xl font-bold text-white mb-4">Verify the Truth</h2>
+            <h2 className="font-heading text-3xl md:text-5xl font-bold font-weight-800 text-white mb-4">Verify the Truth</h2>
             <p className="font-body text-white/80 mb-6 max-w-2xl">Cut through misinformation. Check any claim or article and see transparent evidence and credibility signals.</p>
             <a href="/search-query" className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-primary text-white text-sm font-medium hover:bg-primary/90 transition-colors">Start Verifying</a>
           </div>

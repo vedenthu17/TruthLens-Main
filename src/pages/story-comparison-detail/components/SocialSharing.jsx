@@ -2,16 +2,13 @@ import React, { useState } from 'react';
 import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
 
-const SocialSharing = ({ storyData }) => {
+const ialSharing = ({ storyData }) => {
   const [copied, setCopied] = useState(false);
 
   const shareUrl = window.location?.href;
   const shareTitle = `Neutral Mirror Analysis: ${storyData?.title}`;
-<<<<<<< HEAD
-  const shareText = `Verified news analysis with ${storyData?.credibilityStatus} credibility rating. Check the facts before sharing! #NeutralMirror #FactCheck`;
-=======
   const shareText = `Verified news analysis with ${storyData?.credibilityStatus} credibility rating. Check the facts before sharing! #Neutral Mirror #FactCheck`;
->>>>>>> f73a7537c956c329ea4a94ebdea4b5e7ecb5d0a7
+
 
   const handleCopyLink = async () => {
     try {
@@ -70,7 +67,7 @@ const SocialSharing = ({ storyData }) => {
             </h4>
             <p className="font-body text-xs text-warning/80 leading-relaxed">
               When sharing this story, include our credibility analysis to help others make informed decisions. 
-              Always verify information before sharing on social media.
+              Always verify information before sharing on ial media.
             </p>
           </div>
         </div>
@@ -147,4 +144,4 @@ const SocialSharing = ({ storyData }) => {
   );
 };
 
-export default SocialSharing;
+export default ialSharing;
